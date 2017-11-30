@@ -1,0 +1,24 @@
+/* Outlook.css */
+/* Contents of this file must be placed between <style> tags with conditional comment in <head> of your newsletter in production */
+
+body {
+  /* Reset font styling. Useful when we links custom fonts to our newsletter */
+  font-family: Helvetica, Arial, sans-serif;
+}
+a {
+  /* Reset default links styling */
+  color: #008bf5;
+  text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+  /* Reset default headings margin */
+  margin: .5em 0;
+}
+img {
+  /* Scaled images fix */
+  -ms-interpolation-mode: bicubic;
+}
+table {
+  /* Null tables spaces */
+  border-collapse: collapse;
+}
