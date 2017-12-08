@@ -9,14 +9,16 @@
   }
 }
 a[x-apple-data-detectors=true] {
-  /* Set color inheritance fot auto-detected iOS links like date, time, etc */
+  /* Set default text color inheritance for auto-detected iOS links like date, time, address, etc */
   color: inherit !important;
   text-decoration: inherit !important;
+  border-bottom: none !important;
 }
 body {
   /* Set native platform font styling */
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
   font-size: 16px;
+  color: black;
 }
 .webkit {
   /* Webkit and Microsoft font-size fix */
