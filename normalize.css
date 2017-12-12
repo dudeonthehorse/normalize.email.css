@@ -15,9 +15,12 @@ p a {
   border-bottom: #d3d6f0 1px solid;
 }
 h1 {
-  /* Mail.ru <h1> font-size fix */
-  font-size: 32px;
-  margin-top: 0;
+  /* Mail.ru <h1> styling fix */
+  font-size: 2em;
+  line-height: 1.2em;
+  line-height: initial;
+  margin: 0.67em 0;
+  padding: 0;
 }
 table {
   /* Null tables spaces */
