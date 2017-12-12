@@ -17,7 +17,6 @@ p a {
 h1 {
   /* Mail.ru <h1> styling fix */
   font-size: 2em;
-  line-height: 1.2em;
   line-height: initial;
   margin: 0.67em 0;
   padding: 0;
