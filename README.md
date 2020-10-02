@@ -65,3 +65,7 @@ Please let me know if comments not informative and must be detailed
 </html>
 
 ```
+
+## Conclusion
+
+CSS Normalization gives developers a safe starting point at which to know styles are the same across browsers. For projects where an element inventory is not looked after regularly or, perhaps if there are very very few styles, CSS Normalize can guarantee normality of elements before any custom styling is done
